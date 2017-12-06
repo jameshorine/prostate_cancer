@@ -16,3 +16,4 @@ Model choice (in prediction and imputation) is Random Forest (classification) as
 
 10-fold cross validation agrees with an [out of bag](./plots/OOB_error_rate.pdf) accuracy at 63% using at most $\sqrt{p}$-many features for each split in the data space. This suggests that with further research and medical expertise, one could turn this approach into a powerful tool to direct doctor-patient efforts at a time where tensions, emotions, and concern are very high. 
 
+
