@@ -12,7 +12,7 @@ All categorical variables are encoded (one-hot) into the training data to ensure
 
 Analysis suggests (survival at 1 year relative importance at 6% amongst 65 covariates) that survival at 1 year is an important indicator of survival at 7 years post diagnosis, and as this variable is missing in a overwhelming majority of the scoring cases. This suggests a clear need to train a model to impute the survival status at 1 year post diagnosis. 
 
-Model choice (in prediction and imputation) is Random Forest (classification) as the Random Forest, while intrinsically biased, is able to learn even the most complicated data response manifold topology while still providing robust results in a highly co-linear predictor space. 
+Model choice (in prediction and imputation) is Random Forest (classification) as the Random Forest, while intrinsically biased, is able to learn even the most complicated data response manifold topology while still providing robust results in a highly [co-linear](./plots/corr.png) predictor space. 
 
 10-fold cross validation agrees with an [out of bag](./plots/OOB_error_rate.pdf) accuracy at 63% using at most $\sqrt{p}$-many features for each split in the data space. This suggests that with further research and medical expertise, one could turn this approach into a powerful tool to direct doctor-patient efforts at a time where tensions, emotions, and concern are very high. 
 
