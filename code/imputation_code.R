@@ -5,11 +5,11 @@
 require(mice)
 
 # working directory ----
-setwd("/Users/jameshorine/repos/private_code/enova_challenge/code")
+setwd("/Users/jameshorine/repos/prostate_cancer/code")
 
 #file paths ----
-training_file_path = "/Users/jameshorine/repos/private_code/enova_challenge/data/training_data.csv"
-testing_file_path = "/Users/jameshorine/repos/private_code/enova_challenge/data/name_score.csv"
+training_file_path = "/Users/jameshorine/repos/prostate_cancer/data/training_data.csv"
+testing_file_path = "/Users/jameshorine/repos/prostate_cancer/data/name_score.csv"
 
 #data load in ---- 
 training_data = read.csv(training_file_path, header = TRUE)
