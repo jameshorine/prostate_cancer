@@ -1,4 +1,4 @@
-Prostate Cancer is the most common cancer among men after skin cancer, however it may often be treated successfully (www.cancer.org). It is accepted that Age, ethnicity, geography, family history, diet, obesity, smoking, and other environmental factors all affect the risk of developing Prostate Cancer. In the Prostate Cancer data set (n = 15000), we develop a "blind machine learning" approach to predict whether or not (0/1) an individual will survive 7 years beyond initial diagnosis. 
+Prostate Cancer is the most common cancer among men after skin cancer, however it may often be treated successfully (www.cancer.org). It is accepted that Age, ethnicity, geography, family history, diet, obesity, smoking, and other environmental factors all affect the risk of developing Prostate Cancer. In the Prostate Cancer data set (n = 26916), we develop a "blind machine learning" approach to predict whether or not (0/1) an individual will survive 7 years beyond initial diagnosis. 
 
 The results of this analysis could easily be incorporated into a practitioner tool designed to accurately assist in directing costly provider resources and expertise. 
 
